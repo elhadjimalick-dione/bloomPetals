@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 70px;
+}
+section:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+h1,h2{
+    color: #333;
+}
+P,li {
+    color: #0a0606;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+p {
+    font-family: "Times New Roman", 'Times New Roman', Times, serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.801);
+}
+h1,h2 {
+    color: black;
+    text-shadow: 2px 2px 4px black;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat , sans serif ";
+    padding: 0.3rem;
+}
+
+header {
+    background-color: #7B7B7B;
+
+
+}
+
+body {
+    background-color: #F1DBA9;
+}
+
+h1 {
+    color: #0D78DC;
+    text-align: center;
+    font-family: "agbalumo";
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.pos-input {
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #EEE6EA;
+
+
+}
+
+.art1 {
+    text-align: center;
+    align-items: center;
+    flex: 2 2 500px;
+}
+
+ul a {
+    color: #0A0508;
+}
+
+li {
+    text-decoration: none;
+}
+
+.tri_img {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 145px;
+}
+
+#sec2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#sec3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    background-color: #7B7B7B;
+    height: 100px;
+    color: #fff;
+    padding: 20px;
+}
+
+.pout {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.pout b {
+    display: block;
+}
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 145px;
+}
+.pout b {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+        margin-top: 5%;  
+}
+h2 {
+    color: blue;
+}
+.yéba {
+    text-align: center;
+    margin-top: 5%;
+}
+.toglou {
+    text-align: justify;
+    text-align: color: ;
+    margin: 0;
+}
+.fass {
+    display: flex;
+    justify-content: center;
+    gap: 10px;   
+}
+.fass b {
+    
+     display: block;
+}
+    
+justify-content: center;
+    gap: 10px;
+.fass b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 5%;
+}
+.darou {
+    text-align: center;
+    margin-top: 3%;
+}
+h3 {
+    color: blue;
+}
+.ucad {
+   text-align: justify; 
+   text-align: color: ;
+   margin: 0;
+}
+form {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: space-between; 
+}
+label, input, select, textarea {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+.img_tri {
+    column-count: 5; 
+    column-gap: 20px
+    justify-content: space-between;
+    column-width: 200px;
+    column-gap: 20px;
+ }
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 145px;
+    margin: 20px;
+    border: 2px dashed #00f; 
+    border-radius: 15px; /* Coins arrondis de 15 pixels */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+@media screen and (max-width: 1499px) {
+    body {
+        display: block;
+    }
+    main {
+        width: 100%;
+    }
+}
+.art1 {
+    font-size: 0.9sem;
+}
+@media screen and (max-width: 700px) {
+.sec2 {
+    width: 100%;
+}
+article {
+padding-left: 333px;
+position: relative;
+}
+}
+.sec2 {
+    overflow: hidden;
+}
+@media screen and (max-width: 700px) and (min-width: 1388px) {
+    html {
+        width: 100%;
+        padding: 0px;
+    }
+}
+nav {
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width) 768px {
+    .tri_img, .img_tri, .sec3 {
+        position: static;
+    margin-bottom: 1rem;
+    }
+    img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+    }
+    
+}
+.from {
+    padding: 20px;
+}
+@media screen and (max-width) 860px {
+    .dakar, .toglou, .ucad {
+        float: none;
+        text-align: center;
+    }
+    .pout b, .fass b {
+        display: inline-block;
+        margin: 0 20px 5px 20px;
+        white-space: nowrap;
+    }
+}

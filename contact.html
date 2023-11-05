@@ -1,0 +1,49 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" type ="text/css" href ="style.css">
+    </head>
+        <body>
+            <header>
+                <nav>
+             <ul>
+             <div class ="nav-space">
+             <a href ="index.html">Home </a>
+             <a href="entreprise.html">entreprise</a> 
+                <a href ="realisation.html">Réalisation</a>
+                <a href ="contact.html" class="button-link">Contact</a>
+              </div>
+             </ul>
+               <form method ="post">
+              <label for="search">Rechercher : </label>
+               <input type ="search" name ="search" minlength="4" maxlength="8" size="10" placeholder ="Rechercher..."/>
+               </form>       
+                </nav>
+            </header>
+            <main>
+                    <h4>Formulaire de Contact</h4>
+                    <section class="from">
+                    <form action="traitement.php" method="post">
+                        <label for="civilite">Civilité :</label>
+                        <select id="civilite" name="civilite">
+                            <option value="Monsieur">Monsieur</option>
+                            <option value="Madame">Madame</option>
+                            <option value="Mademoiselle">Mademoiselle</option>
+                        </select>
+                            <label for="nom">Nom :</label>
+                            <input type="text" id="nom" name="nom">
+                    
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" id="prenom" name="prenom">
+
+                            <label for="adresse">Adresse postale :</label>
+                             <textarea id="adresse" name="adresse" rows="4"></textarea>  
+                             <input type="checkbox" id="confidentialite" name="confidentialite">
+                         <label for="confidentialite">J'accepte les politiques de confidentialité de l'entreprise</label>
+                         <input type="submit" value="Valider">
+                        </from>
+                        </section>
+            </main>
+        </body>
+</html>
