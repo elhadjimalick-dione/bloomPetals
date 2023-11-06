@@ -181,7 +181,7 @@ h2 {
 }
 .toglou {
     text-align: justify;
-    text-align: color: ;
+    text-align: color ;
     margin: 0;
 }
 .fass {
@@ -192,10 +192,9 @@ h2 {
 .fass b {
     
      display: block;
+     justify-content: center;
+    gap: 10px
 }
-    
-justify-content: center;
-    gap: 10px;
 .fass b {
     display: flex;
     flex-direction: column;
@@ -213,7 +212,6 @@ h3 {
 }
 .ucad {
    text-align: justify; 
-   text-align: color: ;
    margin: 0;
 }
 form {
@@ -228,7 +226,7 @@ label, input, select, textarea {
 }
 .img_tri {
     column-count: 5; 
-    column-gap: 20px
+    column-gap: 20px;
     justify-content: space-between;
     column-width: 200px;
     column-gap: 20px;
@@ -255,13 +253,13 @@ img {
     font-size: 0.9sem;
 }
 @media screen and (max-width: 700px) {
-.sec2 {
-    width: 100%;
-}
-article {
-padding-left: 333px;
-position: relative;
-}
+    .sec2 {
+        width: 100%;
+    }
+    article {
+        padding-left: 333px;
+        position: relative;
+    }
 }
 .sec2 {
     overflow: hidden;
@@ -279,7 +277,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
 }
-@media screen and (max-width) 768px {
+@media screen and (max-width: 768px) {
     .tri_img, .img_tri, .sec3 {
         position: static;
     margin-bottom: 1rem;
@@ -294,7 +292,7 @@ nav ul {
 .from {
     padding: 20px;
 }
-@media screen and (max-width) 860px {
+@media screen and (max-width: 860px) {
     .dakar, .toglou, .ucad {
         float: none;
         text-align: center;
